@@ -1,0 +1,83 @@
+<!DOCTYPE html> <!--このファイルはhtmlファイルですよ、の宣言-->
+<html lang="ja"> <!-- lang属性は言語を指定します -->
+
+
+
+<head>
+    <meta charset="UTF-8"> <!-- キャラセットはUTF-8を指定（ほぼこれが標準） -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 表示する画面の幅をデバイスの幅に合わせる -->
+
+    <meta name="author" content="JavaScript"> <!-- 作成者の名前を指定します -->
+
+    <meta name="keywords" content="HTML, CSS, JavaScript"> <!-- キーワードを指定します -->
+
+    <title>タイトル</title> <!-- タイトルを指定します -->
+
+    <!-- <link rel="stylesheet" href="./css/main.css"> -->
+</head>
+
+
+
+<body>
+
+    <main> <!-- メインコンテンツになる -->
+
+        <section>
+            <h2>jQuery</h2>
+
+            <div>
+
+                <section>
+                    <h3>セレクタ</h3>
+                    <div>
+                        <p id="test-p-1">ほげ</p>
+                        <p class="test-p-2">ふが</p>
+                        <p id="test-p-3">ぴよ</p>
+                    </div>
+                </section>
+
+
+                <section>
+                    <h3>メソッド</h3>
+                    <div>
+                        <button type="button" onclick="aiueo()">表示・非表示</button>
+                        <button type="button" onclick="kaki()">スライド</button>
+                        <button type="button" onclick="kake()">フェード</button>
+                        <button type="button" onclick="kako()">CSS操作</button>
+                        <button type="button" onclick="tata()">カスタムアニメーション</button>
+                    </div>
+                </section>
+
+                <section>
+                    <h3>イベントハンドラ</h3>
+                    <div>
+
+                    </div>
+                </section>>
+            </div>
+
+        </section>
+
+        <section>
+            <h2>Chart.js</h2>
+        </section>
+    </main>
+
+    <footer>
+        Copylight &copy; Kanako FUKUNAGA, All Rights Reserved.</p>
+    </footer>
+
+
+
+    <!-- インターネット上で公開されているジャバファイルを読み込める -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- chartを読み込む -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.min.js"></script>
+
+    <!-- ↓はローカルなファイル -->
+    <script src="./jquery-test.js"></script>
+    <script src="./chart-test.js"></script>
+
+</body>
