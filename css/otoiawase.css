@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+* {
+    font-family: "游明朝";
+}
+
+html {
+    font-size: 16px;
+}
+
+a {
+    color: #ffffff;
+}
+
+body {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 25px
+}
+
+footer {
+    font-size: 12px;
+}
+
+header {
+    text-align: center;
+}
+
+.botan>ul>li {
+    display: inline;
+    margin: 0 8px 0 0;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 2px 6px;
+    background: linear-gradient(#ffffff, #9ba59d);
+}
+
+.noturl {
+    text-decoration: none;
+    color: #292929;
+}
+
+.kontena {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "main main"
+        "footer footer";
+
+    column-gap: 0.5em;
+    row-gap: 0.5em;
+    background: #e1e2e3;
+}
+
+header {
+    grid-area: header;
+    display: inline;
+    margin: 0 8px 0 0;
+    border: 1px solid #379777;
+    border-radius: 8px;
+    padding: 2px 6px;
+}
+
+#topontop {
+    text-align: center;
+    font-size: 18px;
+    border: 5px double black;
+    background-image: url("../img/top.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.noturl_2 {
+    background: #ffffffac;
+    text-decoration: none;
+    color: #000000;
+}
+
+footer {
+    font-size: 15px;
+    background: #45474B;
+    color: #FFFFFF;
+    grid-area: footer;
+}
+
+.yokonarabi {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}

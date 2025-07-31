@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+* {
+    font-family: "游明朝";
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 18px;
+}
+
+h1{font-size: 25px}
+
+footer {
+    font-size: 12px;
+}
+
+.midori::first-letter {
+    font-family: serif;
+    font-size: 3em;
+    color: #379777;
+}
+
+.siro{
+    font-size: 12px;
+    color: #ffffff;
+}
+
+header {
+    text-align: center;
+}
+
+.botan>ul>li {
+    display: inline;
+    margin: 0 8px 0 0;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 2px 6px;
+    background: linear-gradient(#ffffff, #9ba59d);
+}
+
+.noturl {
+    text-decoration: none;
+    color: #292929;
+}
+
+.kontena {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+        "header header"
+        "aside main"
+        "footer footer";
+
+    column-gap: 0.5em;
+    row-gap: 0.5em;
+    background: #e1e2e3;
+}
+
+.top-under {
+    color: #ffffff;
+}
+
+header {
+    background: #379777;
+    grid-area: header;
+    display: inline;
+    margin: 0 8px 0 0;
+    border: 1px solid #379777;
+    border-radius: 8px;
+    padding: 2px 6px;
+}
+
+#topontop {
+    text-align: center;
+    font-size: 18px;
+    border: 5px double black;
+    background-image: url("../img/top.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+main {
+    background: #e1e2e3;
+    grid-area: main;
+    
+}
+
+.youkoso {
+    text-align: center;
+    font-size: 40px;
+    border: 5px double black;
+    background: #F5F7F8;
+}
+
+aside {
+    background: #f1cd1b;
+    grid-area: aside;
+    border: 5px double black;
+}
+
+.yokonarabi {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+
+.tenmetsu {
+    animation: blink 2s step-start infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+footer {
+    font-size: 15px;
+    background: #45474B;
+    color: #FFFFFF;
+    grid-area: footer;
+}
+
+.nagasu {
+    white-space: nowrap;
+    display: inline-block;
+    animation: nagashi 25s linear infinite;
+    position: relative;
+    left: -100%;
+}
+
+@keyframes nagashi {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+.sirowaku {
+    margin: 0 8px 0 0;
+    border: 1px solid #ffffff;
+    padding: 2px 6px;
+    background: #ffffff;
+}
+
+.noturl_2{
+    background: #ffffffac;
+    text-decoration: none;
+    color: #000000;
+}

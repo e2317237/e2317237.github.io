@@ -1,83 +1,94 @@
-<!DOCTYPE html> <!--このファイルはhtmlファイルですよ、の宣言-->
-<html lang="ja"> <!-- lang属性は言語を指定します -->
-
-
+<!DOCTYPE html>
+<html lang="ja">
 
 <head>
-    <meta charset="UTF-8"> <!-- キャラセットはUTF-8を指定（ほぼこれが標準） -->
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 表示する画面の幅をデバイスの幅に合わせる -->
-
-    <meta name="author" content="JavaScript"> <!-- 作成者の名前を指定します -->
-
-    <meta name="keywords" content="HTML, CSS, JavaScript"> <!-- キーワードを指定します -->
-
-    <title>タイトル</title> <!-- タイトルを指定します -->
-
-    <!-- <link rel="stylesheet" href="./css/main.css"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="JavaScript">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <title>滝山城跡の紹介HP</title>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 
-
-
 <body>
+    <div class="kontena">
+        <header>
+            <section id="topontop">
+                <h1 id="white"><a class="noturl_2" href="index.html">滝山城跡に行こう！</a></h1>
 
-    <main> <!-- メインコンテンツになる -->
+                <nav class="botan">
+                    <ul>
+                        <li><a class="noturl" href="history.html"><strong>歴史</strong></a></li>
+                        <li><a class="noturl" href="pictures.html"><strong>ギャラリー</strong></a></li>
+                        <li><a class="noturl" href="joy.html"><strong>楽しむ・学ぶ</strong></a></li>
+                        <li><a class="noturl" href="otoiawase.html"><strong>お問い合わせ</strong></a></li>
+                    </ul>
+                </nav>
+            </section>
 
-        <section>
-            <h2>jQuery</h2>
+            <p class="top-under">滝山城跡を紹介する非公式のサイトです。</p>
 
-            <div>
+            <section>
+                <image src="./img/top.jpg" alt="中の丸からの眺め" width="70%" height="auto">
+                    <p class="siro">中の丸からの眺め</p>
+            </section>
 
-                <section>
-                    <h3>セレクタ</h3>
-                    <div>
-                        <p id="test-p-1">ほげ</p>
-                        <p class="test-p-2">ふが</p>
-                        <p id="test-p-3">ぴよ</p>
-                    </div>
-                </section>
+        </header>
 
+        <main>
+            <h2 class="youkoso">滝山城跡へようこそ！</h2>
+            <section class="sirowaku">
+                <p class="midori">滝山城跡は東京都八王子市にある、戦国時代の山城の跡です。築城は1521年頃、大石定重によるとされ、その後に北条氏康の三男・北条氏照が大規模に改修しました。</p>
+                <p>現在は国指定の史跡として保存され、公園として開放されていて、春は桜、秋は紅葉といった自然も楽しめます。</p>
+                <hr>
+                <img src="./img/top2.jpg" alt="屋敷の入り口に旗が掲げられている" width="80%" height="auto">
+            </section>
+        </main>
 
-                <section>
-                    <h3>メソッド</h3>
-                    <div>
-                        <button type="button" onclick="aiueo()">表示・非表示</button>
-                        <button type="button" onclick="kaki()">スライド</button>
-                        <button type="button" onclick="kake()">フェード</button>
-                        <button type="button" onclick="kako()">CSS操作</button>
-                        <button type="button" onclick="tata()">カスタムアニメーション</button>
-                    </div>
-                </section>
+        <aside id="waku">
+            <section>
+                <div class="yokonarabi">
+                    <h3 class="tenmetsu">★最新情報★</h3> <span>詳細は下部リンクから</span>
+                </div>
 
-                <section>
-                    <h3>イベントハンドラ</h3>
-                    <div>
+                <ul>
+                    <li>令和7年10月26日「<strong>第20回連続歴史講演会</strong>」開催！ </li>
+                </ul>
 
-                    </div>
-                </section>>
-            </div>
+            </section>
 
-        </section>
+            <hr>
 
-        <section>
-            <h2>Chart.js</h2>
-        </section>
-    </main>
+            <section>
+                <h3>外部リンク一覧</h3>
+                <ul>
+                    <li><a href="https://www.city.hachioji.tokyo.jp/kankobunka/001/002/index.html"
+                            target="_blank"><strong>八王子市公式サイト</strong></a></li>
+                    <li><a href="https://takiyamajo.com/index.php"
+                            target="_blank"><strong>NPO法人　滝山城跡群・自然と歴史を守る会</strong></a></li>
+                </ul>
+            </section>
 
-    <footer>
-        Copylight &copy; Kanako FUKUNAGA, All Rights Reserved.</p>
-    </footer>
+            <hr>
 
+            <section>
+                <h3>アクセス</h3>
+                <p>電車・バスの場合は、JR「八王子駅」または京王「京王八王子駅」からバスで約20分、「滝山城址下」バス停下車。</p>
+                <p>車の場合は、滝山観光駐車場（無料）を利用できます。</p>
+            </section>
 
+        </aside>
 
-    <!-- インターネット上で公開されているジャバファイルを読み込める -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <footer>
+            <p class="nagasu">
+                ⚠滝山城址跡に行く際にはヘビに注意！⚠&emsp;&emsp;&emsp;&emsp;⚠雨の日は道がぬかるんでいるため足元に注意！⚠&emsp;&emsp;&emsp;&emsp;～このサイトは大学の課題で作成したものです～
+            </p>
+            <p>当サイトに掲載されている写真はすべて筆者が撮影したものです。無断での転載・使用はご遠慮ください。</p>
+            <p>Copyright &copy; Kanako FUKUNAGA, All Rights Reserved.</p>
 
-    <!-- chartを読み込む -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.min.js"></script>
+        </footer>
 
-    <!-- ↓はローカルなファイル -->
-    <script src="./jquery-test.js"></script>
-    <script src="./chart-test.js"></script>
+    </div>
+
 
 </body>

@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+* {
+    font-family: "游明朝";
+}
+
+.uehe {
+    color: #ffffff;
+}
+
+a {
+    color: #000000;
+}
+
+html {
+    font-size: 16px;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    font-size: 18px;
+}
+
+footer {
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.botan>ul>li {
+    display: inline;
+    margin: 0 8px 0 0;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 2px 6px;
+    background: linear-gradient(#ffffff, #9ba59d);
+}
+
+.kontena {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+        "header header"
+        "aside main"
+        "footer footer";
+
+    column-gap: 0.5em;
+    row-gap: 0.5em;
+    background: #e1e2e3;
+}
+
+header {
+    grid-area: header;
+
+}
+
+main {
+    grid-area: main;
+}
+
+aside {
+    grid-area: aside;
+    background-color: #379777;
+    border: 5px double black;
+
+}
+
+footer {
+    grid-area: footer;
+    background: #45474B;
+    color: #ffffff
+}
+
+#topontop {
+    text-align: center;
+    font-size: 18px;
+    border: 5px double black;
+    background-image: url("../img/top.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.noturl {
+    text-decoration: none;
+    color: #292929;
+}
+
+.noturl_2 {
+    background: #ffffffac;
+    text-decoration: none;
+    color: #000000;
+}
+
+#rekisi {
+    font-size: 50px;
+    background: #379777;
+    color: white;
+    text-align: center;
+}
+
+.sirowaku {
+    display: inline;
+    margin: 0 8px 0 0;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    padding: 2px 6px;
+    background: #ffffff;
+}

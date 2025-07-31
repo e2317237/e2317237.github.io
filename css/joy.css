@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+* {
+    font-family: "游明朝";
+}
+
+html {
+    font-size: 16px;
+}
+
+header {
+    text-align: center;
+}
+
+a {
+    color: #ffffff;
+}
+
+body {
+    font-size: 18px;
+}
+
+footer {
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 25px
+}
+
+.botan>ul>li {
+    display: inline;
+    margin: 0 8px 0 0;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 2px 6px;
+    background: linear-gradient(#ffffff, #9ba59d);
+}
+
+.noturl {
+    text-decoration: none;
+    color: #292929;
+}
+
+.noturl_2 {
+    background: #ffffffac;
+    text-decoration: none;
+    color: #000000;
+}
+
+.kontena {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+        "header header"
+        "main main"
+        "footer footer";
+
+    column-gap: 0.5em;
+    row-gap: 0.5em;
+    background: #e1e2e3;
+}
+
+#topontop {
+    text-align: center;
+    font-size: 18px;
+    border: 5px double black;
+    background-image: url("../img/top.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    background: #e1e2e3;
+    grid-area: main;
+
+}
+
+aside {
+    background: #f1cd1b;
+    grid-area: aside;
+}
+
+footer {
+    font-size: 15px;
+    background: #45474B;
+    color: #FFFFFF;
+    grid-area: footer;
+}
+
+.aka {
+    color: red;
+}
+
+
+.mondai_sotowaku {
+    border: 4px double #379777;
+    border-radius: 8px;
+    margin: 2em auto;
+}
+
+.mondaibun {
+    background-color: #379777;
+    color: white;
+    padding: 0.8em 1em;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.sentakusi {
+    background-color: white;
+    padding: 1em;
+    font-size: 1em;
+    color: #222;
+}
